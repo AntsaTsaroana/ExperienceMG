@@ -10,10 +10,16 @@ const Footer = () => {
   return (
     <footer>
       <img src={footerPic} alt="footer picture" />
-      <h2 data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-offset="3">
-        travailons
-        <span> ensemble</span>
-      </h2>
+      <div className="together">
+        <h2
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-offset="3"
+        >
+          travailons
+          <span> ensemble</span>
+        </h2>
+      </div>
       <form className="input">
         <h3>
           Laissez-nous un <span>message</span>

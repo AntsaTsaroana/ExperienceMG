@@ -29,13 +29,15 @@ footer {
     object-fit: cover;
   }
 
-  h2 {
+  .together {
     position: absolute;
-    font-family: poppins-semibold;
-    text-transform: uppercase;
+    h2 {
+      font-family: poppins-semibold;
+      text-transform: uppercase;
 
-    span {
-      color: #00c4cc;
+      span {
+        color: #00c4cc;
+      }
     }
   }
 
@@ -211,10 +213,16 @@ footer {
       width: 100%;
     }
 
-    h2 {
-      left: 0;
-      font-size: 39px;
-      margin-left: 90px;
+    .together {
+      position: absolute;
+      width: 100%;
+      h2 {
+        max-width: 1366px;
+        margin: 0 auto;
+        position: relative;
+        left: 90px;
+        font-size: 39px;
+      }
     }
 
     .input {
