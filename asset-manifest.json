@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ExperienceMG/static/css/main.27e10079.css",
+    "main.js": "/ExperienceMG/static/js/main.dbd0463c.js",
+    "static/media/videoPresentation.mp4": "/ExperienceMG/static/media/videoPresentation.2684e6f5f140585f9613.mp4",
+    "static/media/headerPic.png": "/ExperienceMG/static/media/headerPic.ea536c6d25e2e8e95c1e.png",
+    "static/media/peaches-and-cream-regular-w00.ttf": "/ExperienceMG/static/media/peaches-and-cream-regular-w00.53ba1c82d4e806954c39.ttf",
+    "static/media/Poppins-ExtraLight.ttf": "/ExperienceMG/static/media/Poppins-ExtraLight.333cb30c20e31999802a.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/ExperienceMG/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
+    "static/media/cardPic_3.png": "/ExperienceMG/static/media/cardPic_3.47ae74421e907b47d6cc.png",
+    "static/media/cardPic_4.png": "/ExperienceMG/static/media/cardPic_4.d110f7625f1053357233.png",
+    "static/media/cardPic_2.png": "/ExperienceMG/static/media/cardPic_2.d675e94b3b6b6662d507.png",
+    "static/media/cardPic_1.png": "/ExperienceMG/static/media/cardPic_1.2046ec4fbc368a158330.png",
+    "static/media/proxima-n-w01-reg.ttf": "/ExperienceMG/static/media/proxima-n-w01-reg.1b5ad0cfcd6b04986ae9.ttf",
+    "static/media/footerPic.png": "/ExperienceMG/static/media/footerPic.3ba90a45fa24fd9865d4.png",
+    "static/media/partenaire_9.png": "/ExperienceMG/static/media/partenaire_9.d546ab2a56df47924557.png",
+    "index.html": "/ExperienceMG/index.html",
+    "main.27e10079.css.map": "/ExperienceMG/static/css/main.27e10079.css.map",
+    "main.dbd0463c.js.map": "/ExperienceMG/static/js/main.dbd0463c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27e10079.css",
+    "static/js/main.dbd0463c.js"
+  ]
+}
