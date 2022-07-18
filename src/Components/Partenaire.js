@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 import "../Assets/css/partenaire.scss";
 import logo1 from "../Assets/img/partenaire_1.png";
@@ -15,22 +15,27 @@ import logo11 from "../Assets/img/partenaire_11.jpg";
 import logo12 from "../Assets/img/partenaire_12.jpeg";
 
 const Partenaire = () => {
-    return (
-        <div className='divPartenaire'>
-            <img src={logo1} alt="logo des partenaires" />
-            <img src={logo2} alt="logo des partenaires" />
-            <img src={logo3} alt="logo des partenaires" />
-            <img src={logo4} alt="logo des partenaires" />
-            <img src={logo5} alt="logo des partenaires" />
-            <img src={logo6} alt="logo des partenaires" />
-            <img src={logo7} alt="logo des partenaires" />
-            <img src={logo8} alt="logo des partenaires" />
-            <img src={logo9} alt="logo des partenaires" />
-            <img src={logo10} alt="logo des partenaires" />
-            <img src={logo11} alt="logo des partenaires" />
-            <img src={logo12} alt="logo des partenaires" />
-        </div>
-    );
+  return (
+    <div
+      data-aos="fade-left"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-sine"
+      className="divPartenaire"
+    >
+      <img src={logo1} alt="logo des partenaires" />
+      <img src={logo2} alt="logo des partenaires" />
+      <img src={logo3} alt="logo des partenaires" />
+      <img src={logo4} alt="logo des partenaires" />
+      <img src={logo5} alt="logo des partenaires" />
+      <img src={logo6} alt="logo des partenaires" />
+      <img src={logo7} alt="logo des partenaires" />
+      <img src={logo8} alt="logo des partenaires" />
+      <img src={logo9} alt="logo des partenaires" />
+      <img src={logo10} alt="logo des partenaires" />
+      <img src={logo11} alt="logo des partenaires" />
+      <img src={logo12} alt="logo des partenaires" />
+    </div>
+  );
 };
 
 export default Partenaire;

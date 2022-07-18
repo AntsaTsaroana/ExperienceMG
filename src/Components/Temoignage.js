@@ -9,15 +9,24 @@ import pdp4 from "../Assets/img/pdp_4.jpg";
 const Temoignage = () => {
   return (
     <div className="divTemoignage">
-      <h2>
+      <h2 data-aos="fade-zoom-in" data-aos-easing="ease-in-back">
         <span>Ils </span>
         nous ont fait
         <span> confiance</span>
       </h2>
       <div className="temoignage">
-        <div className="cardTemoignage">
+        <div
+          data-aos="fade-right"
+          data-aos-easing="ease-in-sine"
+          className="cardTemoignage"
+        >
           <img src={pdp1} alt="People's picture" />
-          <div className="text">
+          <div
+            data-aos="fade-right"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="100"
+            className="text"
+          >
             <h4>M Rabemihaja, General Manager, Ravintsara Wellness Resort</h4>
             <p>
               Ils ont su satisfaire toutes nos attentes à la fois dans la
@@ -25,9 +34,18 @@ const Temoignage = () => {
             </p>
           </div>
         </div>
-        <div className="cardTemoignage">
+        <div
+          data-aos="fade-left"
+          data-aos-easing="ease-in-sine"
+          className="cardTemoignage"
+        >
           <img src={pdp2} alt="People's picture" />
-          <div className="text">
+          <div
+            data-aos="fade-left"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="100"
+            className="text"
+          >
             <h4>M Jordan, CEO de social-beauty.fr</h4>
             <p>
               Une équipe jeune et dynamique ! Ils savent être rigoureux tout en
@@ -35,9 +53,18 @@ const Temoignage = () => {
             </p>
           </div>
         </div>
-        <div className="cardTemoignage">
+        <div
+          data-aos="fade-right"
+          data-aos-easing="ease-in-sine"
+          className="cardTemoignage"
+        >
           <img src={pdp3} alt="People's picture" />
-          <div className="text">
+          <div
+            data-aos="fade-right"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="100"
+            className="text"
+          >
             <h4>Mlle Henintsoa, apprentie Community Manager</h4>
             <p>
               Good job ! Une très belle expérience avec la team XMG. Hâte de
@@ -45,9 +72,18 @@ const Temoignage = () => {
             </p>
           </div>
         </div>
-        <div className="cardTemoignage">
+        <div
+          data-aos="fade-left"
+          data-aos-easing="ease-in-sine"
+          className="cardTemoignage"
+        >
           <img src={pdp4} alt="People's picture" />
-          <div className="text">
+          <div
+            data-aos="fade-left"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="100"
+            className="text"
+          >
             <h4>Alida & Fabrice, co-gérants de Kintaña Beauty Cosmetics</h4>
             <p>
               C'est en bonne partie grâce à eux que notre entreprise est là où

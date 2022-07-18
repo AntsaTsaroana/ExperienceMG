@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer>
       <img src={footerPic} alt="footer picture" />
-      <h2>
+      <h2 data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-offset="3">
         travailons
         <span> ensemble</span>
       </h2>
@@ -19,30 +19,61 @@ const Footer = () => {
           Laissez-nous un <span>message</span>
         </h3>
         <div>
-          <label For="nom">Nom</label>
-          <input type="text" id="nom" />
+          <label htmlFor="nom">Nom</label>
+          <input
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            type="text"
+            id="nom"
+          />
         </div>
         <div>
-          <label For="tel">Téléphone</label>
-          <input type="tel" id="tel" />
+          <label htmlFor="tel">Téléphone</label>
+          <input
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            type="tel"
+            id="tel"
+          />
         </div>
         <div>
-          <label For="mail">Email *</label>
-          <input type="email" id="mail" />
+          <label htmlFor="mail">Email *</label>
+          <input
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            type="email"
+            id="mail"
+          />
         </div>
         <div>
-          <label For="objet">Objet</label>
-          <input type="text" id="objet" />
+          <label htmlFor="objet">Objet</label>
+          <input
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            type="text"
+            id="objet"
+          />
         </div>
         <div className="divMessage">
-          <label For="message">Message</label>
-          <textarea id="message" cols="30" rows="5"></textarea>
+          <label htmlFor="message">Message</label>
+          <textarea
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            id="message"
+            cols="30"
+            rows="5"
+          ></textarea>
         </div>
         <div className="btnSend">
           <button>Envoyer</button>
         </div>
       </form>
-      <div className="divSociaux">
+      <div
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-offset="0"
+        className="divSociaux"
+      >
         <a href="#">
           <img src={social1} alt="Social network" />
         </a>

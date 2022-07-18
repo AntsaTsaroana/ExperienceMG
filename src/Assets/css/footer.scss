@@ -2,17 +2,17 @@ input,
 textarea {
   border: none;
   outline: none;
-  border-bottom: 1px solid #000000c7;
+  border-bottom: 2px solid #000000c7;
   resize: none;
 }
 
 textarea {
-  margin-top: 10px;
+  margin-top: 20px;
   &:hover {
-    border-bottom: 1px solid palevioletred;
+    border-bottom: 2px solid palevioletred;
   }
   &:focus {
-    border-bottom: 1px solid palevioletred;
+    border-bottom: 2px solid palevioletred;
   }
 }
 
@@ -74,37 +74,37 @@ footer {
 
         &#nom {
           &:hover {
-            border-bottom: 1px solid green;
+            border-bottom: 2px solid green;
           }
           &:focus {
-            border-bottom: 1px solid green;
+            border-bottom: 2px solid green;
           }
         }
 
         &#tel {
           &:hover {
-            border-bottom: 1px solid orange;
+            border-bottom: 2px solid orange;
           }
           &:focus {
-            border-bottom: 1px solid orange;
+            border-bottom: 2px solid orange;
           }
         }
 
         &#mail {
           &:hover {
-            border-bottom: 1px solid rgb(168, 19, 168);
+            border-bottom: 2px solid rgb(168, 19, 168);
           }
           &:focus {
-            border-bottom: 1px solid rgb(168, 19, 168);
+            border-bottom: 2px solid rgb(168, 19, 168);
           }
         }
 
         &#objet {
           &:hover {
-            border-bottom: 1px solid blue;
+            border-bottom: 2px solid blue;
           }
           &:focus {
-            border-bottom: 1px solid blue;
+            border-bottom: 2px solid blue;
           }
         }
       }
