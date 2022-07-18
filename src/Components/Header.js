@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 
 import "../Assets/css/header.scss";
 import headerPic from "../Assets/img/headerPic.png";
