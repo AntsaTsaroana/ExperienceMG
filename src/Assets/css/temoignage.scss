@@ -1,0 +1,96 @@
+.divTemoignage {
+  width: 100%;
+  margin-top: 100px;
+
+  h2 {
+    font-family: poppins-semibold;
+    text-transform: uppercase;
+    margin-left: 20px;
+
+    span {
+      color: #8c5bff;
+    }
+  }
+
+  .temoignage {
+    .cardTemoignage {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 340px;
+      margin: 100px auto 20px;
+      border-radius: 15px;
+      box-shadow: 0px 0px 15px #00000021;
+
+      img {
+        position: relative;
+        width: 130px;
+        top: -65px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+
+      .text {
+        position: relative;
+        top: -30px;
+        text-align: center;
+        margin: 0 20px;
+
+        p {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+// TABLETTE
+@media screen and (min-width: 768px) {
+  .temoignage {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+// DESKTOP
+@media screen and (min-width: 1280px) {
+  .divTemoignage {
+    h2 {
+      font-size: 39px;
+      margin-left: 90px;
+    }
+    .temoignage {
+      width: 88%;
+      margin: 0 auto;
+      .cardTemoignage {
+        flex-direction: row;
+        width: 470px;
+        height: 108px;
+        box-shadow: 0px 0px 60px #00000021;
+
+        img {
+          position: absolute;
+          width: 120px;
+          top: -45px;
+          left: -40px;
+        }
+
+        .text {
+          text-align: left;
+          top: -33px;
+          margin: 0 20px 0 108px;
+
+          h4 {
+            font-size: 15px;
+          }
+
+          p {
+            margin-top: 25px;
+            line-height: 25px;
+          }
+        }
+      }
+    }
+  }
+}

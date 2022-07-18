@@ -1,0 +1,164 @@
+.divOffres {
+  width: 100%;
+  margin-top: 100px;
+
+  h2 {
+    font-family: poppins-semibold;
+    text-transform: uppercase;
+    margin-left: 20px;
+
+    span {
+      color: #00c4cc;
+    }
+  }
+
+  .offres {
+    .cardOffre {
+      width: 340px;
+      margin: 20px auto;
+      height: 300px;
+      border-radius: 15px;
+      box-shadow: 3px 3px 10px #00000066;
+
+      img {
+        width: 100%;
+        height: 100px;
+        border-radius: 15px 15px 0 0;
+        object-fit: cover;
+      }
+
+      @media screen and (min-width: 1280px) {
+        img {
+          border-radius: 0 15px 15px 0;
+        }
+      }
+
+      .details {
+        position: relative;
+        width: 85%;
+        margin: 0 auto;
+        text-align: center;
+
+        h4 {
+          font-family: poppins-semibold;
+          margin: 8px 0;
+        }
+        p {
+          font-family: proxima-n-w01-reg;
+        }
+
+        .btnDetails {
+          position: absolute;
+          left: 95px;
+          bottom: -60px;
+          background: transparent;
+          outline: none;
+          border: 1px solid #00c4cc;
+          border-radius: 50px;
+          padding: 10px;
+          transition: 0.5s;
+          color: #181818;
+
+          &:hover {
+            background: #00c4cc;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+
+  .btnCondition {
+    display: block;
+    margin: 45px auto 0;
+    background: transparent;
+    border-radius: 50px;
+    padding: 10px;
+    transition: 0.5s;
+    color: #181818;
+    box-shadow: 0px 0px 10px #00000030;
+
+    &:hover {
+      background: #121212;
+      color: #ffffff;
+    }
+  }
+}
+
+// TABLETTE
+@media screen and (min-width: 768px) {
+  .divOffres {
+    .offres {
+      display: flex;
+      flex-wrap: wrap;
+      .cardOffre {
+        width: 340px;
+        height: 300px;
+      }
+    }
+  }
+}
+
+// DESKTOP
+@media screen and (min-width: 1280px) {
+  .divOffres {
+    h2 {
+      font-size: 39px;
+      margin-left: 90px;
+    }
+
+    .offres {
+      display: flex;
+      flex-wrap: wrap;
+      width: 85%;
+      margin: 25px auto;
+
+      .cardOffre {
+        width: 500px;
+        height: 283px;
+        display: flex;
+        img {
+          width: 50%;
+          height: 100%;
+        }
+        .details {
+          position: relative;
+          h4 {
+            font-size: 18px;
+            margin: 25px 0;
+          }
+          p {
+            font-size: 17px;
+            padding: 0 10%;
+          }
+
+          .btnDetails {
+            position: absolute;
+            left: 60px;
+            bottom: 20px;
+            font-size: 16px;
+          }
+        }
+      }
+
+      .cardOffre:nth-child(1),
+      .cardOffre:nth-child(4) {
+        flex-direction: row-reverse;
+      }
+
+      .cardOffre:nth-child(2),
+      .cardOffre:nth-child(3) {
+        flex-direction: row;
+
+        img {
+          border-radius: 15px 0 0 15px;
+        }
+      }
+    }
+
+    .btnCondition {
+      padding: 15px;
+      font-size: 16px;
+    }
+  }
+}

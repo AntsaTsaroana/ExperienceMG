@@ -1,0 +1,27 @@
+.divPartenaire::-webkit-scrollbar {
+  display: none;
+}
+
+.divPartenaire {
+  width: 90%;
+  margin: 30px auto;
+  white-space: nowrap;
+  overflow-x: scroll;
+
+  img {
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #666565;
+    margin-right: 20px;
+  }
+}
+
+// DESKTOP
+@media screen and (min-width: 1280px) {
+  .divPartenaire {
+    display: flex;
+    justify-content: center;
+    margin: 35px auto;
+  }
+}

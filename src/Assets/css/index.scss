@@ -1,0 +1,60 @@
+$primary-color: #00000000;
+
+@font-face {
+  font-family: "proxima-n-w01-reg";
+  src: url(../fonts/proxima/proxima-n-w01-reg.ttf);
+}
+
+@font-face {
+  font-family: "peaches-and-cream-regular-w00";
+  src: url(../fonts//Peaches-and-Cream/peaches-and-cream-regular-w00.ttf);
+}
+
+@font-face {
+  font-family: "poppins-semibold";
+  src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "poppins-extralight";
+  src: url(../fonts/Poppins/Poppins-ExtraLight.ttf);
+}
+
+// CSS RESET
+
+*,::after,::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+// ---------------------
+
+body {
+  background: $primary-color;
+  margin: 0;
+  font-family: 'Arial','Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

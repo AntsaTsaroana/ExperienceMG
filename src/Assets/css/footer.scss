@@ -1,0 +1,234 @@
+input,
+textarea {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000000c7;
+  resize: none;
+}
+
+textarea {
+  margin-top: 10px;
+  &:hover {
+    border-bottom: 1px solid palevioletred;
+  }
+  &:focus {
+    border-bottom: 1px solid palevioletred;
+  }
+}
+
+footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+
+  img {
+    width: 1260px;
+    object-fit: cover;
+  }
+
+  h2 {
+    position: absolute;
+    font-family: poppins-semibold;
+    text-transform: uppercase;
+
+    span {
+      color: #00c4cc;
+    }
+  }
+
+  .input {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50px;
+    width: 85%;
+    margin: 20px auto;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px black;
+    padding: 20px;
+
+    h3 {
+      font-family: poppins-semibold;
+      text-transform: uppercase;
+
+      span {
+        color: #8c5bff;
+      }
+    }
+
+    div {
+      display: grid;
+      margin-top: 10px;
+      width: 90%;
+
+      label {
+        margin-top: 10px;
+      }
+
+      input {
+        height: 30px;
+
+        &#nom {
+          &:hover {
+            border-bottom: 1px solid green;
+          }
+          &:focus {
+            border-bottom: 1px solid green;
+          }
+        }
+
+        &#tel {
+          &:hover {
+            border-bottom: 1px solid orange;
+          }
+          &:focus {
+            border-bottom: 1px solid orange;
+          }
+        }
+
+        &#mail {
+          &:hover {
+            border-bottom: 1px solid rgb(168, 19, 168);
+          }
+          &:focus {
+            border-bottom: 1px solid rgb(168, 19, 168);
+          }
+        }
+
+        &#objet {
+          &:hover {
+            border-bottom: 1px solid blue;
+          }
+          &:focus {
+            border-bottom: 1px solid blue;
+          }
+        }
+      }
+    }
+  }
+
+  .btnSend {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    button {
+      width: 100px;
+      border: none;
+      background: transparent;
+      font-family: poppins-semibold;
+      font-size: 18px;
+      margin-top: 15px;
+
+      &:hover {
+        color: #8c5bff;
+      }
+    }
+  }
+
+  .divSociaux {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 60px;
+
+    img {
+      width: 35px;
+      object-fit: cover;
+      margin-right: 10px;
+    }
+  }
+
+  .divCopyright {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 10px;
+    color: #ffffff;
+  }
+}
+
+// TABLETTE
+@media screen and (min-width: 768px) {
+  footer {
+    margin-top: 70px;
+    img {
+      width: 140%;
+    }
+
+    h2 {
+      left: 40px;
+    }
+
+    .input {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 500px;
+      margin: 15px auto;
+      padding: 25px 25px 30px;
+
+      h3 {
+        width: 100%;
+        font-size: 25px;
+      }
+
+      div {
+        width: 45%;
+
+        input {
+          height: 40px;
+        }
+      }
+
+      .divMessage {
+        width: 100%;
+      }
+    }
+
+    .btnSend {
+      width: 100% !important;
+      display: flex;
+      justify-content: flex-end;
+      button {
+        font-family: Arial;
+      }
+    }
+  }
+}
+
+// DESKTOP
+@media screen and (min-width: 1280px) {
+  footer {
+    margin-top: 80px;
+    img {
+      width: 100%;
+    }
+
+    h2 {
+      left: 0;
+      font-size: 39px;
+      margin-left: 90px;
+    }
+
+    .input {
+      width: 650px;
+      margin: 60px auto;
+    }
+
+    .btnSend {
+      button {
+        font-size: 25px;
+      }
+    }
+
+    .divSociaux {
+      bottom: 80px;
+    }
+  }
+}
