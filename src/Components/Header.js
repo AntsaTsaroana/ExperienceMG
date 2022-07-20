@@ -40,10 +40,6 @@ const Header = () => {
         Vous n'êtes pas là par hasard
       </h2>
       <div
-        data-aos="fade-zoom-in"
-        data-aos-duration="2000"
-        data-aos-easing="ease-in-back"
-        data-aos-delay="500"
         id="btnBonjour"
         className="divBonjour"
         onClick={handleClick}

@@ -4,16 +4,23 @@
 
 .divPartenaire {
   width: 90%;
+  height: 85px;
   margin: 30px auto;
   white-space: nowrap;
   overflow-x: scroll;
 
   img {
     width: 70px;
+    height: auto;
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid #666565;
-    margin-right: 20px;
+    margin: 5px;
+    transition: 0.5s;
+  
+    &:hover {
+      transform: scale(1.1) !important;
+    }
   }
 }
 
